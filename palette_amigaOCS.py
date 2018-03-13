@@ -99,12 +99,12 @@ register(
     "Alex Argiropoulos",
     "Alex Argiropoulos",
     "2018",
-    N_("_Palette Amiga OCS..."),
+    N_("Palette Amiga OCS..."),
     "RGB*",
     [
         (PF_IMAGE, "image",       "Input image", None),
         (PF_DRAWABLE, "drawable", "Input drawable", None),
-        (PF_OPTION, "dither", "_Dither :", 0,
+        (PF_OPTION, "dither", _("Dither"), 0,
             [
                 "None",
                 "Floyd-Steinberg (normal)",
@@ -115,7 +115,7 @@ register(
     ],
     [],
     palette_AmigaOCS,
-    menu="<Image>/Filters/Render",
+    menu=N_("<Image>/Filters/Render"),
     domain=("gimp20-python", gimp.locale_directory)
     )
 
