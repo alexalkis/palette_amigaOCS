@@ -111,7 +111,7 @@ register(
                 "Floyd-Steinberg (reduced color bleeding)",
                 "Positioned"
             ]),
-        (PF_SPINNER, "bp",    _("Bitplanes "),    5, (1, 5, 1)),
+        (PF_SPINNER, "bp",    _("Bitplanes"),    5, (1, 5, 1)),
     ],
     [],
     palette_AmigaOCS,
