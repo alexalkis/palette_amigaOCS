@@ -115,7 +115,7 @@ register(
     ],
     [],
     palette_AmigaOCS,
-    menu=N_("<Image>/Filters/Render"),
+    menu="<Image>/Filters/Render",
     domain=("gimp20-python", gimp.locale_directory)
     )
 
